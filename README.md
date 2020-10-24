@@ -1,15 +1,16 @@
 <h3>Init_sh_project - <em>script for initialization of Your bash project</em></h3>
 <p>After clonning this project, if You type 'make deploy', in Your homedir will be made following <br>
-directories, if not presented: ~/bin, ~/lib, ~/projects/sh_projects. To ~/bin will be copied init_sh_project.sh <br>
-script from ./bin and to ~/lib will be copied sh_proto_project from ./lib.<br>
-
+directories, if not presented: ~/bin, ~/lib, ~/projects/sh_projects.<br>
+ 
 <em>Meke menu of this project:</em>
 <pre>help:  		 This help dialog.
 tests_bash:  	 Run bash scripts tests
 commit:  	 Test and commit changes to git and push on github
 deploy:		 Deploys script and its library to the system
 </pre>
+  ... type 'make deploy' to deploy on Your system
 
+To ~/bin will be copied init_sh_project.sh script from ./bin and to ~/lib will be copied sh_proto_project from ./lib.<br>
 After we type in terminal init_sh_project.sh, we will be asked for project name and permision to<br>
 connect it to github.com which is voluntary. In ~/projects/sh_projects/ will be created project folder with<br>
 initial setup and copied initial content from ~/lib/sh_proto_project.</p>
@@ -34,7 +35,7 @@ initial setup and copied initial content from ~/lib/sh_proto_project.</p>
 >- .devbin/ - contains scripts for development
 >- bigcommit.sh - script that check git status, makes tests and performs local and remote commit
 >- shtest.sh - script that runs set -xvn and shellcheck tests
->- dev_requirements.apt contains packages that needs to be installed for development, installs via Makefile
+>- dev_requirements.apt - contains packages that needs to be installed for development, installs via Makefile
 >- .github - if presented remote commits to github are performed when commiting via Makefile
 >- .gitignore
 >- changelog - is filled up when performing commit via Makefile.
