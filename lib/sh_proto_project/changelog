@@ -9,6 +9,3 @@ Syntax for changelog:
 	1.0.0 - Marks first usable complete version of an applications.
 	< 1.0.0 - Marks development of new application.
 	> 1.0.0 - Marks upgrades of an existing functional application.
---- 0.1.0 - NKoCompleted.
-    Completed.
-
