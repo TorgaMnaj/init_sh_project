@@ -44,8 +44,9 @@ initial setup and copied initial content from ~/lib/sh_proto_project.</p>
 >- projectname.sh - initial project bash script
 >- TODO
 >- Makefile - Initialy contains those options:
+>
 > <pre>help:  		 This help dialog.
+> devinstall:	 Install development tools
 > tests_bash:  	 Run bash scripts tests
 > commit:  	 Test and commit changes to git and push on github
 > </pre>
-

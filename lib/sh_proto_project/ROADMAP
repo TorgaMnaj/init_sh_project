@@ -1,6 +1,0 @@
-# ROADMAP contains only steps on 1.x.x and x.1.x level and not minor changes.
-# Each changelog record uses same versioning syntax and naming, so ROADMAP
-# versions are same like changelog versions.
-
---- 0.1.0:
-	.Placeholder for first project planing, architecture, steps and versions.
